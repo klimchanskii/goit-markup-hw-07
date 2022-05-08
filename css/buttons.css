@@ -1,0 +1,41 @@
+.hero-portfolio {
+  font-size: 0px;
+}
+
+.list-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 56px;
+}
+
+.list-button > li + li {
+  margin-left: 8px;
+}
+
+.button {
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: var(--team-color);
+  background: var(--team-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.button:focus,
+.button:hover,
+.button:active {
+  background-color: var(--blue-main);
+  color: var(--white-color);
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+/*# sourceMappingURL=buttons.css.map */

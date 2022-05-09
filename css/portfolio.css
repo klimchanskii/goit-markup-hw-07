@@ -46,6 +46,21 @@ h1, h2, h3, h4, p {
   padding: 94px 0;
 }
 
+.newsletter__button {
+  text-align: center;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  background-color: #2196F3;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -157,21 +172,6 @@ h1, h2, h3, h4, p {
   --color4: currentColor ;
 }
 
-.newsletter__button {
-  text-align: center;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-  color: #ffffff;
-  background-color: #2196F3;
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-}
-
 .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -216,15 +216,11 @@ h1, h2, h3, h4, p {
   margin: -15px;
 }
 
-.work-name a {
+.works__name a {
   text-decoration: none;
 }
 
-.works__item img {
-  display: block;
-}
-
-.work-name > h2 {
+.works__name > h2 {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -232,13 +228,13 @@ h1, h2, h3, h4, p {
   margin-bottom: 4px;
 }
 
-.work-name > p {
+.works__name > p {
   font-size: 16px;
   line-height: 1.875;
   color: #757575;
 }
 
-.work-name {
+.works__name {
   padding: 20px 24px;
   text-align: start;
   border-right: 1px solid #EEEEEE;
@@ -276,6 +272,7 @@ h1, h2, h3, h4, p {
 .works__img {
   position: relative;
   overflow: hidden;
+  display: block;
 }
 
 .works__site {

@@ -8,15 +8,18 @@
 }
 .about-us__item:nth-child(-n + 2){margin-right: 30px;}
 .about-us__desc{
-    position: absolute;
-    bottom: 0px;
-    padding-top: 27px;
-    padding-bottom: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+    position: absolute;
+
+    bottom: 0px;
+    height: 70px;
+    width: 100%;
     left: 50%;
     transform: translate(-50%);
-    width: 100%;
-
+    
 
     font-weight: 700;
     line-height: 1.142;
